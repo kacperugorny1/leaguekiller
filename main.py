@@ -28,7 +28,7 @@ def kill_processes(process_name: str):
 
 def main():
     while time.localtime()[3] <= 14:
-        time.sleep(10)
+        time.sleep(9)
         for process in save_list_of_processes_to_kill():
             kill_processes(process)
 
